@@ -1,6 +1,5 @@
 ##The Test
 <div>
--------------------------------------------
 <p>our client is an online marketplace, here is a sample of some of the products available on our site:</p>
 
 <pre>
@@ -41,7 +40,6 @@ Total price expected: £36.95
 Basket: 001,002,001,003
 Total price expected: £73.76
 </pre>
---------------------------------------------
 </div>
 
 ### Implementing the code
