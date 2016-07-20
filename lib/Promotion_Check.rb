@@ -8,9 +8,9 @@ class Promotion_Check
   end
 
   def applicable_item_rules item_code, count
-    @item_rules = []
-    rules_list[0].map.each { |key| @item_rules << key[1] if key[1][:item_code] == item_code && key[1][:number_of_items] == count }
-    apply_item_rules @item_rules, basket
+    item_rules = []
+    rules_list[0].map.each { |key| item_rules << key[1] if key[1][:item_code] == item_code && key[1][:number_of_items] == count }
+    apply_item_rules item_rules, basket
   end
 
   def apply_item_rules item_rules, basket
@@ -22,6 +22,11 @@ class Promotion_Check
         end
       end
     end
+  end
+
+  def apply_total total
+    rules_list[0].map.each do |rule|
+      if rul
   end
 
 end

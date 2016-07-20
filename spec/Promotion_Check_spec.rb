@@ -34,4 +34,10 @@
           expect(check.basket).to eq new_basket
         end
       end
+
+      describe "#apply_total_rules" do
+        it "updates basket total if rules apply" do
+          
+        end
+      end
     end
