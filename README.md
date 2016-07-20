@@ -46,8 +46,8 @@ Total price expected: £73.76
 ### Implementing the code
 In command line run the following:
 ```
-git clone git@github.com:wrumble/Babylon-Tech-Test.git
-cd Babylon-Tech-Test
+git clone git@github.com:wrumble/checkout-tech-test.git
+cd checkout-tech-test
 bundle
 ```
 To see tests in command line run:
